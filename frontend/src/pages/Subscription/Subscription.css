@@ -1,0 +1,81 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Subscription Page Container */
+  .subscription-page {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Form Title */
+  .subscription-page h1 {
+    margin-bottom: 20px;
+    color: #1da1f2;
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Label Styles */
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input Styles */
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button Styles */
+  .subscribe-button {
+    background-color: #1da1f2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #0d8ae0;
+  }
+  
+  /* Error Message */
+  .error {
+    color: red;
+    margin-bottom: 15px;
+  }
+  
+  /* Success Message */
+  .success {
+    color: green;
+    margin-bottom: 15px;
+  }
+  
